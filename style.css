@@ -1,3 +1,42 @@
+header
+{
+color: green;
+text-align: center;
+width: 100%;
+height: 70px;
+background-color: black;
+}
+ul
+{
+list-style-type:none;
+margin:0;
+padding:0;
+}
+li
+{
+float: left;
+display:inline;
+}
+
+a:link,a:visited
+{
+margin-top: 30px;
+display: block;
+width: 100px;
+font-weight: bold;
+color: black;
+background-color: green;
+text-align: center;
+padding-right: 50px;
+padding-left: 50px;
+text-decoration: none;
+text-transform: uppercase;
+}
+a:hover,a:active
+{
+background-color: yellow;
+}
+
 body
 {
 margin: 0px 0px 0px 0px;
@@ -5,15 +44,6 @@ background-color:#d0e4fe;
 text-align: left;
 }
 
-header
-{
-color:orange;
-text-align:center;
-width: 100%;
-height: 150px;
-background-color: grey;
-
-}
 p
 {
 font-family:"Times New Roman";
