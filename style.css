@@ -27,6 +27,12 @@ padding: 6%;
 text-decoration: none;
 color: #333333;
 padding: 8px 8px 8px 8px;
+ -webkit-transition: color 1s ease-in;
+   -moz-transition: color 1s ease-in;
+   -o-transition: color 1s ease-in;
+   -ms-transition: color 1s ease-in;
+   transition: color 1s ease-out;
+
 }
 #menu a:hover {
 border-top: 2px solid #333333;
@@ -34,6 +40,7 @@ border-bottom: 2px solid #333333;
 font-weight:bold; 
 color: #999999;
 }
+
 
 body
 {
@@ -62,6 +69,10 @@ width: 70%;
 background-color: white;
 }
 
+#deliverables {
+text-align: center;
+}
+
 #deliverables a {
 display:inline-block;
 width:200px;
@@ -72,11 +83,23 @@ margin-left: 50px;
 margin-right: 50px;
 margin-top: 20px;
 margin-bottom: 20px;
+
 }
 
 
-p
-{
-font-family:"Times New Roman";
-font-size:20px;
+#text {
+text-decoration: none;
+color: #333333;
+font-size: 35;
+font-family: Impact, Geneva, sans-serif;
+letter-spacing: 5px;
+font-weight: bold;
+}
+
+#normaltext {
+text-decoration: none;
+color: #333333;
+font-size: 13;
+font-family: Impact, Geneva, sans-serif;
+letter-spacing: 1px;
 }
